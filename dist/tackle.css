@@ -1,24 +1,28 @@
 /*!
- * Tackle.css v1.2.1
- * Docs & License: http://www.tacklehealth.com/docs
- * (c) 2017 Tackle, Inc.
+ * Tackle.css v1.0.1
+ * Docs & License: http://developer.tacklehealth.com/
+ * (c) 2016 Jack Eastburn
  */
 
 .tw {
 	width: 100%;
 	display: block;
-	border: 1px solid #000;
 	color: #000;
 	font-weight: normal;
 	font-size: 1em;
+	text-align: center;
 }
 
 .tw-inline-block {
 	display: inline-block;
 }
 
+.tw-inline-block-conditional {
+	display: inline-block;
+}
+
 .tw-title-bar {
-	background: #000;
+	background: #0a1223;
 	color: #fff;
 	padding: 0.5em 0;
 	margin-bottom: 0.5em;
@@ -37,17 +41,20 @@
 .tw-time-container {
 	width: 100%;
 	display: inline-flex;
-	max-height: 10em;
+	border-right: 1px solid #c9cacc;
+	border-left: 1px solid #c9cacc;
+	height: 10em;
 	overflow: scroll;
 }
 
-.tw-margin-right {
-	margin-right: 2em;
+.tw-powered {
+	line-height: 1em;
+	font-size: 1em;
+	text-align: right;
 }
 
 .tw-svg {
-	color: #000;
-	float: right;
+	fill: #33e1cf;
 	vertical-align: middle;
 }
 
@@ -56,7 +63,7 @@
 }
 
 .tw-header {
-	font-size: 1.5em;
+	font-size: 1em;
 }
 
 .tw-provider {
@@ -69,36 +76,55 @@
 }
 
 .tw-link {
+	text-decoration: none;
+	color:#fff;
 	cursor: pointer;
 }
 
+.tw-footer {
+	background-color: #0a1223;
+	height: auto;
+	text-align:center;
+	padding-top: 0.25em;
+	padding-bottom: 0.25em;
+}
+
 .tw-interactionRow {
+	width:100%;
 	padding: 0.75em 0;
 	margin-bottom: 0.4em;
 	cursor: pointer;
 	display: inline-flex;
-	border-bottom: 1px solid #a6a8ab;
-	display: flex;
+	border-bottom: 1px solid #c9cacc;
 	align-items: center;
-
-	.tw-emphasis {
-		font-weight: 700;
-	}
 
 	.tw-addText {
 		color: #9da0a7;
 	}
 }
 
+.tw-notification {
+	width:100%;
+	padding: 0.75em 0.5em;
+	margin-bottom: 0.4em;
+	cursor: pointer;
+	display: inline-block;
+	align-items: center;
+}
+
 .tw-select {
-	margin-left: 1em;
-    background: #fff;
-    border: 1px solid #000;
+	width: 100%;
+    background: #fafafa;
+    border: 1px solid #1e877c;
     border-radius: 0;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     cursor: pointer;
     font-weight: normal;
+}
+
+.tw-select-margin {
+	margin-left: 1em;
 }
 
 .tw-width-1 {
@@ -169,4 +195,8 @@
 .tw-fill {
 	width: 91.7%;
 	position: relative;
+}
+
+.tw-max-width-half {
+	max-width: 50%;
 }

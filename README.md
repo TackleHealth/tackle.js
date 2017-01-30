@@ -111,50 +111,50 @@ Tackle's plug and play library enabling Tackle widget and api access functionali
                                     <td class="option-title">appointmentTypeId</td>
                                     <td class="option-info">Identification tag of an appointment associated with the previously specified provider</td>
                                 </tr>
-                            </tbody>
-                        </table>
-                        <p>Below is an example data response:</p>
-                        <pre><code class="language-javascript">{“count”:1,
+                </tbody>
+            </table>
+            <p>Below is an example data response:</p>
+            <pre><code class="language-javascript">{“count”:1,
 “payload”:
 [{
-    “id”:"12345abcd", 
-    “providerFirstName”:"Sarah",
-     “providerLastName”:"Smith", 
-    “officeName”:"Smith Family Practice", 
-    “officeAddress”:"12345 Main Street", 
-    “officeCity”:"New York", 
-    “officeState”:"NY",
-    “officeZipCode”:"10001", 
-    “officeTimezone”:"America/New_York", 
-    “startTime”:123445345, 
-    “endTime”:123445945, 
-    “linkToBook”:"https://www.tacklehealth.com/appointment-direct/12345abcd"
+“id”:"12345abcd", 
+“providerFirstName”:"Sarah",
+“providerLastName”:"Smith", 
+“officeName”:"Smith Family Practice", 
+“officeAddress”:"12345 Main Street", 
+“officeCity”:"New York", 
+“officeState”:"NY",
+“officeZipCode”:"10001", 
+“officeTimezone”:"America/New_York", 
+“startTime”:123445345, 
+“endTime”:123445945, 
+“linkToBook”:"https://www.tacklehealth.com/appointment-direct/12345abcd"
 }]
 }</code></pre>
-                    </div>
-                </div>
-                <div id="tag" style="margin-bottom:3em">
-                    <h2>Tag Manager</h2>
-                    <div class="team_member">
-                        <h4>Video</h4>
-                        <a href="https://www.youtube.com/watch?v=KRvbFpeZ11Y">Google Tag Manager on Youtube</a>
-                        <h4>Top Line:</h4>
-                        <p>Google Tag Manager enables us to share logging on your client websites and Tackle pages, and for these events to be reported as if they are all occurring on your client's site. This allows you to collect data all the way through appointment booking.</p>
-                        <h4>How it works:</h4>
-                        <ol>
-                            <li>We initialize a shared Google Tag Container that we both will have access to via the <a href="https://tagmanager.google.com/?hl=en">Google Tag Manager dashboard</a></li>
-                            <li>Within this web dashboard, you can specify all of the logging pixels that you want to use to track events on Tackle’s appointment request flow. These tracking pixels and the events that you wish to capture with them are modifiable at any time from this dashboard and will take effect immediately</li>
-                            <li>We recommend implementing the Google Tag code on any page that has scheduling capabilities-- either those with the widget or any custom built pages using our API.  We also implement it on all steps of the checkout that occur on www.tacklehealth.com, which have been triggered from your client's website</li>
-                            <li>When a user visits any webpage that has the Google Tag code on it, it will initialize all of the logging specified on the dashboard-- as though this tracking code were implemented directly on the page</li>
-                            <li>Events captured by this logging will flow naturally into the existing dashboards that you use to support your analytics, including Google Analytics, FB Insights, and many others, as though the events on Tackle are happening on your own website</li>
-                            <li>You can use these captured events to measure conversions, and also to segment your audience by how far they gone in the conversion funnel, and to re-target them to complete their bookings</li>
-                        </ol>
-                    </div>
-                </div>
-                <div id="partnerships" style="margin-bottom:3em">
-                    <h2>Partnerships</h2>
-                    <div class="team_member">
-                        <p>Tackle partners with developers to distribute Tackle's product and augment the developer's offering. If you would like to get in touch with us please reach out at <a href="mailto:info@tacklehealth.com">info@tacklehealth.com</a></p>
-                    </div>
-                </div>
-            </div>
+        </div>
+    </div>
+    <div id="tag" style="margin-bottom:3em">
+        <h2>Tag Manager</h2>
+        <div class="team_member">
+            <h4>Video</h4>
+            <a href="https://www.youtube.com/watch?v=KRvbFpeZ11Y">Google Tag Manager on Youtube</a>
+            <h4>Top Line:</h4>
+            <p>Google Tag Manager enables us to share logging on your client websites and Tackle pages, and for these events to be reported as if they are all occurring on your client's site. This allows you to collect data all the way through appointment booking.</p>
+            <h4>How it works:</h4>
+            <ol>
+                <li>We initialize a shared Google Tag Container that we both will have access to via the <a href="https://tagmanager.google.com/?hl=en">Google Tag Manager dashboard</a></li>
+                <li>Within this web dashboard, you can specify all of the logging pixels that you want to use to track events on Tackle’s appointment request flow. These tracking pixels and the events that you wish to capture with them are modifiable at any time from this dashboard and will take effect immediately</li>
+                <li>We recommend implementing the Google Tag code on any page that has scheduling capabilities-- either those with the widget or any custom built pages using our API.  We also implement it on all steps of the checkout that occur on www.tacklehealth.com, which have been triggered from your client's website</li>
+                <li>When a user visits any webpage that has the Google Tag code on it, it will initialize all of the logging specified on the dashboard-- as though this tracking code were implemented directly on the page</li>
+                <li>Events captured by this logging will flow naturally into the existing dashboards that you use to support your analytics, including Google Analytics, FB Insights, and many others, as though the events on Tackle are happening on your own website</li>
+                <li>You can use these captured events to measure conversions, and also to segment your audience by how far they gone in the conversion funnel, and to re-target them to complete their bookings</li>
+            </ol>
+        </div>
+    </div>
+    <div id="partnerships" style="margin-bottom:3em">
+        <h2>Partnerships</h2>
+        <div class="team_member">
+            <p>Tackle partners with developers to distribute Tackle's product and augment the developer's offering. If you would like to get in touch with us please reach out at <a href="mailto:info@tacklehealth.com">info@tacklehealth.com</a></p>
+        </div>
+    </div>
+</div>
